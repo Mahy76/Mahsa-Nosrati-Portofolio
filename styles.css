@@ -24,9 +24,20 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-.heading {
+.about-me-main {
+  font-family: "Work Sans", sans-serif;
   font-size: 96px;
+  color: #6c63ff;
+  -webkit-text-stroke: 1px white;
 }
+.heading {
+  font-family: "Work Sans", sans-serif;
+  -webkit-text-stroke: 1px white;
+  font-size: 96px;
+
+  color: #6c63ff;
+}
+
 .top-text {
   margin-top: 120px;
 }
@@ -93,4 +104,18 @@ p {
 .cto-link:hover {
   color: yellow;
   background-image: var(--bs-gradient);
+}
+@media (max-width: 576px) {
+  .image-content {
+    display: none;
+  }
+  .text-content {
+    text-align: center;
+  }
+  .heading {
+    font-size: 48px;
+  }
+}
+.img-header {
+  height: 20px;
 }
